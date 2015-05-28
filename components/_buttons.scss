@@ -1,0 +1,145 @@
+// Button Stlyes
+@import "helpers/_variables.scss";
+
+/* Button One - MAIN */
+.button {
+	border: 1px solid #FFF;
+	background-color: rgba(255, 255, 255, 0);
+	color: #FFF;
+	padding: 15px 15px;
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin: 0 auto;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	a {
+		color: white;
+		text-decoration: none;
+		width: 100%;
+		padding: 15px 15px;
+	}
+}
+.button:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.button:hover,
+.button:active {
+	color: #0e83cd;
+	border-color: #3498db;
+	a {
+		font-weight: 100;
+		color: white;
+		background-color: #3498db;
+	}
+}
+/* 
+===============
+Button One
+===============
+*/
+.button-2 {
+	border: 1px solid $primary-blue;
+	padding: 15px 25px;
+	background-color: rgba(255, 255, 255, 0);
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin: 0 auto;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	a {
+		color: $primary-blue;
+		text-decoration: none;
+	}
+}
+.button-2:after {
+	content: '';
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 1a */
+.button-2:hover,
+.button-2:active {
+	color: #0e83cd;
+	background: $primary-blue;
+	a {
+		font-weight: 100;
+		color: white;
+	}
+}
+
+/* Icon Down */
+.hvr-icon-down {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: relative;
+	&:after {
+		content: "\f01a";
+		color: $primary-blue;
+		padding-left: 10px;
+		font-family: FontAwesome;
+		-webkit-transform: translateZ(0);
+		transform: translateZ(0);
+		font-size: 18px;
+	}
+}
+.hvr-icon-down:hover:after, .hvr-icon-down:focus:after, .hvr-icon-down:active:after {
+  -webkit-animation-name: hvr-icon-down;
+  animation-name: hvr-icon-down;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  color: white;
+}
+
+/* Icon Down */
+@-webkit-keyframes hvr-icon-down {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  25%,
+  75% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@keyframes hvr-icon-down {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  25%,
+  75% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
