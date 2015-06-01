@@ -1,0 +1,48 @@
+// Mobile Navigation
+.head-mast {
+	width: $full;
+	border-bottom: 1px solid #f4f4f4;
+	height: auto;
+	.head-logo {
+		display: inline-flex;
+		margin-left: 20px;
+		h1 {
+			float: left;
+			padding: 26px 0px;
+			font-size: $font-h2;
+			color: $primary-black;
+			font-family: $font-ant;
+			text-transform: $transform-up;
+			font-weight: $font-weight;
+			a {
+				color: $primary-black;
+				text-decoration: none;
+				transition: .5s ease;
+				&:hover {
+					color: lighten($primary-blue, 10%);
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.head-navigation {
+		float: right;
+		margin: 10px 20px 0px 0px;
+
+		ul li {
+			font-family: $font-ant;
+			text-transform: $transform-up;
+			display: inline-block;
+			margin: 24px 10px;
+			a {
+				text-decoration: none;
+				color: $primary-black;
+				transition: .25s ease;
+				&:hover {
+					color: $primary-blue;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

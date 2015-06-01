@@ -1,0 +1,5 @@
+// Mixins
+@mixin transition {	
+  -webkit-transition: 1s ease; 
+          transition: 1s ease; 
+}

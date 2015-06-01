@@ -1,0 +1,79 @@
+.noshow {
+	display: none;
+}
+
+.contact-page {
+	width: 960px;
+	margin: 5% auto;
+	display: flex;
+}
+
+.contact-form {
+	width: $full;
+	float: right;
+	display: block;
+	h2 {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 20px;
+		font-family: $font-sans-2;
+	}
+	form {
+		padding: 0px 10px;
+		input, textarea {
+			padding: 0px 0px 0px 10px;
+			border: 1px solid lighten($primary-black, 50%);
+			width: 98.5%;
+			font-family: $font-sans-2;
+			font-size: 16px;
+			font-weight: 300;
+			margin: 30px 0px 0px 0px;
+			background-color: rgba(0, 0, 0, .02);
+
+			::-webkit-input-placeholder {
+			    color: $primary-black;
+			    font-size: 18px;
+			    font-weight: 700;
+			    font-family: $font-sans-2;
+			    margin-left: 10px;
+			}
+		}
+		.first {
+			float: left;
+			height: 50px;
+		}
+
+		.last {
+			height: 50px;
+			float: left;
+		}
+
+		.email {
+			height: 50px;
+		}
+
+		.text-message {
+			width: 98.5%;
+			height: 200px;
+			padding-top: 10px !important;
+		}
+
+		button {
+			width: 200px;
+			padding: 15px;
+			margin-top: 30px;
+			border: none;
+			float: right;
+			background-color: $primary-blue;
+			color: white;
+			cursor: pointer;
+			font-size: 16px;
+			text-transform: uppercase;
+			@include transition();
+			&:hover {
+				background-color: lighten($primary-blue, 10%);
+			}
+		}
+	}
+}
