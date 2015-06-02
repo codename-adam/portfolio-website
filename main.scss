@@ -1,3 +1,9 @@
+// Helpers
+@import "helpers/_helpers.scss";
+@import "helpers/_functions.scss";
+@import "helpers/_mixins.scss";
+@import "helpers/_variables.scss";
+
 // Base
 @import "base/_reset.scss";
 @import "base/_typography.scss";
@@ -10,13 +16,5 @@
 
 
 
-// Helpers
-@import "helpers/_functions.scss";
-@import "helpers/_helpers.scss";
-@import "helpers/_mixins.scss";
-@import "helpers/_variables.scss";
-
 // Pages
 @import "pages/_home.scss";
-@import "pages/_project.scss";
-@import "pages/_contact.scss";

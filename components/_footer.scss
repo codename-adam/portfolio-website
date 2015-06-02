@@ -4,13 +4,12 @@
 @import "helpers/_mixins.scss";
 @import "helpers/_variables.scss";
 
-
-
 .footer {
-	background-color: $primary-blue;
+	background-color: lighten($soft-black, 8%);
 	width: $full;
 	display: inline-flex;
 	padding: 6% 0px;
+	margin-top: 15%;
 
 	.footer-content {
 		width: 960px;
@@ -28,25 +27,26 @@
 		h4 {
 			color: white;
 			text-align: center;
-			font-family: $font-ant;
+			font-family: $font-sans-2;
+			text-transform: uppercase;
+			font-weight: 100;
 		}
 
 		.footer-media {
 			text-align: center;
 			display: block;
-			margin: 15px 10px;
+			margin: 15px 10px 10px 10px;
 
 			li {
 				display: inline-block;
 				display: inline-block;
-				border: 1px solid $soft-black;
 				border-radius: 50%;
 				padding: 12px;
 				margin: 12px;
 				width: 15px;
 				height: 15px;
 
-				@include transition();
+				@include transition-2();
 				i {
 					color: white;
 				}
@@ -59,6 +59,48 @@
 					background-color: $facebook;
 				}
 			}
+			.twitter {
+				background-color: none;
+
+				&:hover {
+					background-color: $twitter;
+				}
+			}
+			.linkedin {
+				background-color: none;
+
+				&:hover {
+					background-color: $linkedin;
+				}
+			}
+			.dribbble {
+				background-color: none;
+
+				&:hover {
+					background-color: $dribbble;
+				}
+			}
+			.pintrest {
+				background-color: none;
+
+				&:hover {
+					background-color: $pintrest;
+				}
+			}
 		}
+	}
+}
+.copy-content {
+	text-align: left;
+	padding: 20px 15px;
+	background-color: $primary-green;
+
+	p {
+		font-size: 12px;
+		color: $soft-black;
+		text-decoration: none;
+		font-family: $font-sans-2;
+		font-weight: 300;
+		letter-spacing: 1px;
 	}
 }
