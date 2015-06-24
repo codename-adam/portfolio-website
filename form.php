@@ -10,7 +10,7 @@ $default_response = "Thank you for contacting us.<br>We will respond to your ema
 if(isset($_POST['email'])) {
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "adam.keller.design@gmail.com";
+    $email_to = "adam.keller.design@gmail.com"; 
     $email_subject = "Someone wants to contact you!";
      
      
