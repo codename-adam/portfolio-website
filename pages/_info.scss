@@ -1,0 +1,133 @@
+.info-banner {
+	width: $full;
+	height: 400px;
+	max-height: 400px;
+	background-color: red;
+}
+
+.about-page {
+	width: $full;
+	display: inline-flex;
+	
+	@media (max-width: 40em) {
+		width: 100%;
+	}
+}
+
+.about-wrap {
+	width: $container;
+	margin: 0 auto;
+	padding: 5%;
+
+	@media (max-width: 40em) {
+		width: 90%;
+		padding: 35px 5px 45px 0px;
+	}
+
+	.about-image {
+		width: 25%;
+		display: inline-block;
+		float: left;
+		max-width: 30%;
+		@media (max-width: 40em) {
+			display: none;
+		}
+
+		.image-block {
+			width: 100%;
+			height: auto;
+			display: block;
+
+			img {
+				width: 90%;
+				border-radius: 50%;
+				padding: 1%;
+			}
+		}
+	}
+	.about-content {
+		width: 72%;
+		display: inline-block;
+		float: left;
+		border-left: 1px solid #F4F4F4;
+		padding-left: 15px;
+		@media (max-width: 40em) {
+			width: 100%;
+			padding-left: 0px;
+			border: none;
+		}
+
+		.main-content {
+			padding: 0px 0px 20px 10px;
+			display: inline-block;
+			
+			h2 {
+				font-size: 36px;
+				font-family: $font-osw;
+				text-transform: uppercase;
+				@media (max-width: $break2) {
+					font-size: 190%;
+				}
+			}
+			
+			.pull-quote {
+				font-style: italic;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #323232;
+				background-color: #f4f4f4;
+				padding: 20px 20px 10px 20px;
+				font-size: 18px;
+				margin: 2% auto;
+				border-left: 2px solid $pri-red;
+				margin-left: 20px;
+				@media (max-width: 40em) {
+					margin-left: 0px;
+				}
+			}
+
+			p {
+				font-size: 18px;
+				font-weight: 500;
+				font-family: $f-body;
+				font-weight: 300;
+				line-height: 1.5;
+				padding: 10px 0px;
+				float: left;
+				@media (max-width: $break2) {
+					font-size: 100%;
+				}
+				
+				.nati {
+					font-weight: 500;
+					color: $pri-red;
+
+					&:hover {
+						cursor: crosshair;
+					}
+				}
+			}
+			.pull-quote {
+				@media (max-width: $break2) {
+					display: none;
+				}
+				.jobs-quote {
+					color: rgba(0, 0, 0, 0.5);
+					display: inline-block;
+					font-size: 15px;
+					font-weight: 300;
+					float: right;
+				}
+			}
+			.floyd-images {
+				width: 33%;
+				height: auto;
+				display: inline-block;
+				float: left;
+				padding: 20px 0px;
+				border-top: 1px solid #f4f4f4;
+				border-bottom: 1px solid #f4f4f4;
+			}
+		}
+	}
+}
