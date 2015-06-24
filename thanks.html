@@ -23,7 +23,70 @@
 </head>
 	<body>
 		<div class="web-frame">
-		
+			<!-- mobile nav -->
+			<div class="mobilenav">
+				<ul>
+					<li><a href="info.html">Info</a></li>
+					<li><a data-scroll href="#work-projects">Work</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="Resume.pdf" target="_blank">Resumé</a></li>
+				</ul>
+			</div>
+			<!-- Mobile Menu Icon -->
+			<a href="javascript:void(0)" class="icon icon-bg">
+			  <div class="hamburger">
+			    <div class="menui top-menu"></div>
+			    <div class="menui mid-menu"></div>
+			    <div class="menui bottom-menu"></div>
+			  </div>
+			</a>
+			
+			<header class="head-mast">
+				<div class="content-container">
+					<div class="head-logo">
+						<a href="index.html" class="logo-main">
+							<object type="image/svg+xml" data="img/logo_new.svg" class="logo"></object>
+						</a>
+					</div>
+					<nav class="head-navigation">
+						<ul>
+							<li><a href="info.html">Info</a></li>
+							<li><a data-scroll href="#work-projects">Work</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="Resume.pdf" target="_blank">Resumé</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div class="thank-you-svg">
+				<object type="image/svg+xml" data="img/thank-you.svg" class="logo"></object>
+			</div>
+			<div class="footer">
+				<div class="right-col-footer">
+					<ul class="footer-media">
+						<a href="https://www.facebook.com/2008AK" target="_blank"><li class="facebook"><i class="fa fa-facebook"></i></li></a>
+						<a href="https://twitter.com/KellerDesign" target="_blank"><li class="twitter"><i class="fa fa-twitter"></i></li></a>
+						<a href="www.linkedin.com/in/adammkeller" target="_blank"><li class="linkedin"><i class="fa fa-linkedin"></i></li></a>
+						<a href="https://dribbble.com/A-keller" target="_blank"><li class="dribbble"><i class="fa fa-dribbble"></i></li></a>
+						<a href="https://github.com/kellerdesign" target="_blank"><li class="git"><i class="fa fa-github"></i></li></a>
+					</ul>
+				</div>
+				<div class="left-col-footer">
+					<p>&copy; 2015 All rights reserved &nbsp;//&nbsp;<span> Designed & Developed by <a href="Resume.pdf" target="_blank">Adam Keller</a></span></p>
+				</div>
+			</div>
 		</div>
+
+		<script src='js/smooth-scroll.js'></script>
+		<script>
+			smoothScroll.init({
+				speed: 1000,
+				easing: 'easeInOutCubic',
+				offset: 0,
+				updateURL: true,
+				callbackBefore: function ( toggle, anchor ) {},
+				callbackAfter: function ( toggle, anchor ) {}
+			});
+		</script>
 	</body>
 </html>
