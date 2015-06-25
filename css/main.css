@@ -653,10 +653,13 @@ body {
 
 .banner {
   width: 100%;
-  background-image: url("../img/banner_2.jpg") no-repeat;
-  height: auto;
+  background-image: url("../img/banner_2.jpg");
+  height: 400px;
   max-height: 400px;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
   @media (max-width: 40em) {
     .banner {
       height: auto;
