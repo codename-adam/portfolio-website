@@ -653,7 +653,7 @@ body {
 
 .banner {
   width: 100%;
-  background-image: url("../img/banner_2.jpg");
+  background-image: url("../img/desk.jpeg");
   height: 400px;
   max-height: 400px;
   background-color: rgba(0, 0, 0, 0.2);
@@ -666,7 +666,7 @@ body {
       background-color: #ccb770; } }
 
 .skills {
-  margin: 10% 0px;
+  margin: 7% 0px;
   display: inline-flex;
   display: -webkit-inline-flex;
   width: 100%; }
