@@ -14,8 +14,8 @@ body {
 
 .banner {
 	width: $full;
-	background-image: url('../img/banner_2.jpg');
-	height: 400px;
+	background-image: url('../img/banner_2.jpg') no-repeat;
+	height: auto;
 	max-height: 400px;
 	background-color: rgba(0, 0, 0, .2);
 	
