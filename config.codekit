@@ -756,6 +756,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/discovery_fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5187,
+		"inputAbbreviatedPath": "\/img\/discovery_fall.jpg",
+		"outputAbbreviatedPath": "\/img\/discovery_fall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/door_cover_full.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -954,6 +965,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/frontend_fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3786,
+		"inputAbbreviatedPath": "\/img\/frontend_fall.jpg",
+		"outputAbbreviatedPath": "\/img\/frontend_fall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/game_changer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -987,6 +1009,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/illustration_fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4280,
+		"inputAbbreviatedPath": "\/img\/illustration_fall.jpg",
+		"outputAbbreviatedPath": "\/img\/illustration_fall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/lettera_shot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1016,6 +1049,17 @@
 		"initialSize": 39895,
 		"inputAbbreviatedPath": "\/img\/mountains_shot.jpg",
 		"outputAbbreviatedPath": "\/img\/mountains_shot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pentool_fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4182,
+		"inputAbbreviatedPath": "\/img\/pentool_fall.jpg",
+		"outputAbbreviatedPath": "\/img\/pentool_fall.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1086,6 +1130,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ux_fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4462,
+		"inputAbbreviatedPath": "\/img\/ux_fall.jpg",
+		"outputAbbreviatedPath": "\/img\/ux_fall.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vian_site.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1104,6 +1159,17 @@
 		"initialSize": 21579,
 		"inputAbbreviatedPath": "\/img\/viansora.jpg",
 		"outputAbbreviatedPath": "\/img\/viansora.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/webdesign_fall.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4102,
+		"inputAbbreviatedPath": "\/img\/webdesign_fall.jpg",
+		"outputAbbreviatedPath": "\/img\/webdesign_fall.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1189,7 +1255,7 @@
 		"outputAbbreviatedPath": "\/js\/min\/modernizr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/z_app.js": {
