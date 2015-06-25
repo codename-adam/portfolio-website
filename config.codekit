@@ -703,17 +703,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/banner_2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46642,
-		"inputAbbreviatedPath": "\/img\/banner_2.jpg",
-		"outputAbbreviatedPath": "\/img\/banner_2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/cb_sanity.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -743,6 +732,17 @@
 		"initialSize": 12865,
 		"inputAbbreviatedPath": "\/img\/cotton_bureau_shirt.jpg",
 		"outputAbbreviatedPath": "\/img\/cotton_bureau_shirt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/desk.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7.15777e+06,
+		"inputAbbreviatedPath": "\/img\/desk.jpeg",
+		"outputAbbreviatedPath": "\/img\/desk.jpeg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1189,17 +1189,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/smooth-scroll.js",
 		"outputAbbreviatedPath": "\/js\/min\/smooth-scroll-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/snap.svg-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/snap.svg-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/snap.svg-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
