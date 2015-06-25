@@ -98,26 +98,9 @@
 					.fa-github {
 						color: white;
 						@include transition-fast();
-					}
-					
-					.fa-facebook:hover {
-						color: $facebook;
-					}
-
-					.fa-twitter:hover {
-						color: $twitter;
-					}
-
-					.fa-linkedin:hover {
-						color: $linkedin;
-					}
-
-					.fa-dribbble:hover {
-						color: $dribbble;
-					}
-
-					.fa-github:hover {
-						color: $github;
+						&:hover {
+							color: $pri-gold;
+						}
 					}
 				}
 			}

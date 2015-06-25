@@ -568,16 +568,12 @@ Mobile Navigation
             color: white;
             -webkit-transition: .25s ease;
             transition: .25s ease; }
-          .footer .right-col-footer .footer-media a li .fa-facebook:hover {
-            color: #3b5998; }
-          .footer .right-col-footer .footer-media a li .fa-twitter:hover {
-            color: #55acee; }
-          .footer .right-col-footer .footer-media a li .fa-linkedin:hover {
-            color: #0976b4; }
-          .footer .right-col-footer .footer-media a li .fa-dribbble:hover {
-            color: #ea4c89; }
-          .footer .right-col-footer .footer-media a li .fa-github:hover {
-            color: #4183c4; }
+            .footer .right-col-footer .footer-media a li .fa-facebook:hover,
+            .footer .right-col-footer .footer-media a li .fa-twitter:hover,
+            .footer .right-col-footer .footer-media a li .fa-linkedin:hover,
+            .footer .right-col-footer .footer-media a li .fa-dribbble:hover,
+            .footer .right-col-footer .footer-media a li .fa-github:hover {
+              color: #ccb770; }
 
 .view-more-projects {
   width: 100%;
