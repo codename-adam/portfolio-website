@@ -17,6 +17,7 @@ body {
 	background-image: url("../img/desk.jpeg");
 	height: 400px;
 	max-height: 400px;
+	max-width: 1440px;
 	background-color: rgba(0, 0, 0, 0.2);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -51,15 +52,6 @@ body {
 			padding: 10%;
 			border-right: 1px solid #e6e6e6;
 			border-bottom: 1px solid #e6e6e6;
-			@include transition-fast();
-			
-			&:hover {
-				cursor: crosshair;
-				
-				h4 {
-					color: $pri-red;
-				}
-			}
 			
 			@media (max-width: $break6) {
 				padding: 15%;
@@ -75,7 +67,6 @@ body {
 				font-weight: 100;
 				color: #2f2f2f;
 				padding: 10px 0px;
-				@include transition-fast();
 				
 				&:after {
 				    display: block;
@@ -209,6 +200,8 @@ body {
 				h2 {
 					color: white;
 					font-size: 20px;
+					font-weight: 100;
+					letter-spacing: 1px;
 					text-transform: uppercase;
 					font-family: $font-ant;
 				}

@@ -656,6 +656,7 @@ body {
   background-image: url("../img/desk.jpeg");
   height: 400px;
   max-height: 400px;
+  max-width: 1440px;
   background-color: rgba(0, 0, 0, 0.2);
   background-size: cover;
   background-repeat: no-repeat;
@@ -684,13 +685,7 @@ body {
     .skills .skill .content {
       padding: 10%;
       border-right: 1px solid #e6e6e6;
-      border-bottom: 1px solid #e6e6e6;
-      -webkit-transition: .25s ease;
-      transition: .25s ease; }
-      .skills .skill .content:hover {
-        cursor: crosshair; }
-        .skills .skill .content:hover h4 {
-          color: #ff4c49; }
+      border-bottom: 1px solid #e6e6e6; }
       @media (max-width: 60em) {
         .skills .skill .content {
           padding: 15%; } }
@@ -703,9 +698,7 @@ body {
         text-transform: uppercase;
         font-weight: 100;
         color: #2f2f2f;
-        padding: 10px 0px;
-        -webkit-transition: .25s ease;
-        transition: .25s ease; }
+        padding: 10px 0px; }
         .skills .skill .content h4:after {
           display: block;
           overflow: hidden;
@@ -800,6 +793,8 @@ body {
         .home-projects .projects figcaption div h2 {
           color: white;
           font-size: 20px;
+          font-weight: 100;
+          letter-spacing: 1px;
           text-transform: uppercase;
           font-family: "Antonio", "lato", sans-serif; }
     .home-projects .projects a {
