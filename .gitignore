@@ -1,1 +1,9 @@
 .sass-cache
+node_modules
+.htaccess
+
+
+
+.DS_Store
+./.DS_Store
+/.DS_Store
