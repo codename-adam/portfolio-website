@@ -2,7 +2,7 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/kellerdesign/portfolio-website/issues"
   },
-  "homepage": "https://github.com/kellerdesign/portfolio-website#readme"
+  "homepage": "https://github.com/kellerdesign/portfolio-website#readme",
+
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-path": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgstore": "^7.0.1",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "gulp-svgmin": "^2.1.0"
+  }
 }
